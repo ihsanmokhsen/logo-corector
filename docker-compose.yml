@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: logo-corector
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "127.0.0.1:8095:80"

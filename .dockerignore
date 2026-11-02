@@ -1,0 +1,9 @@
+.git
+.env
+vendor
+node_modules
+python/.venv
+storage/app/jobs
+storage/logs/*.log
+.phpunit.result.cache
+.claude
