@@ -2,4 +2,5 @@
 !private/
 !public/
 !logo/
+!logo/**
 !.gitignore
